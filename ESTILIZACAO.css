@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: Black;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+video {
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.iniciarGravacao {
+    background-color: #e274f8;
+    color: black;
+    border-radius: 8px;
+    border: none;
+}
+
+.PararGravacao {
+    background-color: #ff7575;
+    color: black;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.mudo {
+    background-color: grey;
+    color: black;
+    border-radius: 8px;
+    border: none;
+}
+
+.desmudo {
+    background-color: grey;
+    color: black;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.botoesBaixo {
+    margin-top: 30px;
+    
+}
+
+.botoes,
+.botoesBaixo,
+.tela {
+    display: flex;
+    gap: 50px;
+}
+
+.tela {
+    width: 100%;
+    margin-left: 20px;
+    align-items: flex-start;
+    border-radius: 35px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ESTILIZACAO.css">
+</head>
+<body>
+    <div class="botoes">
+        <button class="iniciarGravacao" id="start">Iniciar Captura</button>
+        <button class="PararGravacao" id="stop" disabled>Parar Gravação</button>
+    </div>
+    <div class="tela">
+        <video id="video" controls autoplay></video>
+    </div>
+    <div class="botoesBaixo">
+        <button class="mudo" onclick="document.getElementById('video').muted = true">Mudo</button>
+        <button class="desmudo" onclick="document.getElementById('video').muted = false">Desmudo</button>
+    </div>
+
+
+
+
+
+
+
+    <script src="./LOGICA.js"></script>
+</body>
+</html>
